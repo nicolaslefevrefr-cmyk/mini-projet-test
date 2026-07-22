@@ -1,0 +1,13 @@
+{
+  "name": "Compteur — test ship",
+  "short_name": "Compteur",
+  "description": "Mini-projet de test pour valider le déploiement automatique sur GitHub Pages",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#12141a",
+  "theme_color": "#12141a",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

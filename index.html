@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compteur — test ship</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#12141a">
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">test de déploiement</p>
+    <h1>Petit compteur</h1>
+    <p class="sub">Ce mini-projet (HTML + CSS + JS + manifest PWA) sert à vérifier qu'un dossier zippé se déploie correctement.</p>
+    <div class="counter">
+      <button id="dec" aria-label="décrémenter">−</button>
+      <span id="value">0</span>
+      <button id="inc" aria-label="incrémenter">+</button>
+    </div>
+    <p class="hint">La valeur est sauvegardée dans le navigateur (localStorage).</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

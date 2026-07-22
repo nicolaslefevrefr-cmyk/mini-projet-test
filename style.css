@@ -1,0 +1,42 @@
+:root{
+  --bg:#12141a;
+  --card:#191c23;
+  --border:#2a2f3a;
+  --text:#e8eaed;
+  --dim:#8b92a3;
+  --accent:#3fb950;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  min-height:100vh;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--bg);
+  font-family:-apple-system,'Segoe UI',sans-serif;
+  color:var(--text);
+  padding:20px;
+}
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:36px;
+  max-width:380px;
+  width:100%;
+  text-align:center;
+}
+.eyebrow{
+  font-size:11px;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--accent);font-weight:600;margin-bottom:8px;
+}
+h1{font-size:22px;margin-bottom:10px}
+.sub{font-size:13.5px;color:var(--dim);line-height:1.6;margin-bottom:28px}
+.counter{
+  display:flex;align-items:center;justify-content:center;gap:22px;margin-bottom:16px;
+}
+.counter button{
+  width:42px;height:42px;border-radius:50%;border:1px solid var(--border);
+  background:transparent;color:var(--text);font-size:20px;cursor:pointer;transition:.15s;
+}
+.counter button:hover{border-color:var(--accent);color:var(--accent)}
+#value{font-size:34px;font-weight:700;min-width:60px;font-variant-numeric:tabular-nums}
+.hint{font-size:11.5px;color:var(--dim)}
